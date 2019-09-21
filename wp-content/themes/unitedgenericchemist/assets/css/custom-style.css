@@ -1,0 +1,160 @@
+/*.home-slider  .wpb_revslider_element { padding-left: 15px;}*/
+.home-slider .hesperiden.tparrows{background: #fff;}
+.home-slider .hesperiden.tparrows:hover { background: #19bcbc;}
+.home-slider .hesperiden.tparrows:before{color: #000;}
+.home-slider .hesperiden.tparrows:hover::before{color: #fff;}
+.home-slider-section.vc_custom_1544032031796{background-color: transparent !important;overflow: inherit !important; }
+.ttcms-services .wpb_content_element { float: left;}
+.ttcmsservices {background: #fff;overflow: hidden; float: left;border: 1px solid #e5e5e5; text-align: left;
+width: 100%;}
+.ttcmsservices .ttcmsservice > div {display: inline-block;padding: 5.2% 0 15px 10px; vertical-align: top;
+ cursor: pointer; position: relative; float: left; width: 100%;}
+.ttcmsservices .ttcmsservice .ttshipping .service-icon.ttshipping_img {
+background: transparent url(../images/services-sprite.png) repeat scroll -33px -10px;
+}
+.ttcmsservices .ttcmsservice .ttshipping:hover .service-icon.ttshipping_img {
+background-position: 82px -10px;
+}
+.ttcmsservices .ttcmsservice .ttsupport .service-icon.ttsupport_img {
+background: transparent url(../images/services-sprite.png) repeat scroll -33px -103px;
+}
+.ttcmsservices .ttcmsservice .ttsupport:hover .service-icon.ttsupport_img {
+background-position: 82px -103px;
+}
+.ttcmsservices .ttcmsservice .ttsaving .service-icon.ttsaving_img {
+background: transparent url(../images/services-sprite.png) repeat scroll -33px -199px;
+}
+.ttcmsservices .ttcmsservice .ttsaving:hover .service-icon.ttsaving_img {
+background-position: 82px -199px;
+}
+.ttcmsservices .ttcmsservice .ttmoney .service-icon.ttmoney_img {
+background: transparent url(../images/services-sprite.png) repeat scroll -33px -289px;
+}
+.ttcmsservices .ttcmsservice .ttmoney:hover .service-icon.ttmoney_img {
+background-position: 82px -289px;
+}
+.ttcmsservices .ttcmsservice > div:hover .service-title {color: #19bcbc !important;}
+.ttcmsservices .ttcmsservice > div .service-icon { color: white; display: inline-block;
+float: none; font-size: 30px; height: 62px; line-height: 60px; margin: 0; position: relative;
+ text-align: left; width: 50px; vertical-align: top;
+    transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out 0s;
+    -moz-transition: all 400ms ease-in-out 0s;
+    -o-transition: all 400ms ease-in-out 0s;
+    -ms-transition: all 400ms ease-in-out 0s;  
+}
+.ttcmsservices .ttcmsservice > div .service-content {display: inline-block; float: none;margin: 0 0 0 10px;
+padding: 10px 0;  text-align: left; vertical-align: top;}
+.ttcmsservices .ttcmsservice > div::after {background: #e5e5e5 none repeat scroll 0 0;
+bottom: 0; content: ""; height: 1px; left: 0; margin: 0 auto; position: absolute; right: 0; width: 90%;}
+.ttcmsservices .ttcmsservice > div:last-child::after {height:0;}
+.ttcmsservices .ttcmsservice > div .service-content .service-title {color: #222; 
+font: 500 16px/22px "Poppins",Helvetica,sans-serif; letter-spacing: 1px; text-transform: capitalize;}
+.ttcmsservices .ttcmsservice > div .service-content .service-desc {color: #777777;
+font: 400 13px/20px "Poppins", Helvetica, sans-serif;  text-transform: capitalize;}
+
+/*prdouct slider*/
+.home-product-slider .owl-nav {
+    position: absolute !important;
+    top: 0 !important;
+    right: 1% !important;margin-top: 28px;
+    width: 100%;
+    float: left;
+}
+.home-product-slider .owl-nav button{ height: 30px !important;
+    width: 30px !important;
+    border: 1px solid #e5e5e5 !important;
+    background-color: #fff !important;
+    border-radius: 100px;
+    text-align: center;
+}
+.home-product-slider .wpb_wrapper{position: relative;}
+.home-product-slider .carousel-slider{position: static !important;}
+.home-product-slider .owl-nav button:hover{background-color: #000 !important;}
+.home-product-slider .owl-nav button:focus{outline: none !important;} 
+.home-product-slider .owl-nav button svg{height: 20px !important; width: 20px !important;}
+.home-product-slider .owl-nav button svg.carousel-slider-nav-icon ,.home-product-slider .owl-nav button 
+svg.carousel-slider-nav-icon:hover{fill: #111111 !important;}
+.home-product-slider .owl-nav button:hover svg.carousel-slider-nav-icon{fill: #fff !important;}
+.home-product-slider .owl-nav .owl-prev {
+    position: absolute !important;
+    right: 0% !important;
+    left: auto !important;margin-right: 38px !important;
+}
+.home-product-slider  .carousel-slider__product a.add_to_cart_button{background-color: #01558b !important;     padding: 0.7em 1em !important;}
+.home-product-slider  .carousel-slider__product a.add_to_cart_button:hover{
+    background-color: #19bcbc !important;}
+.home-product-slider .carousel-slider__product .price{color: #ee0000 !important;font-size: 15px;}
+.banner-hover-effect .vc_single_image-wrapper img{width: 100%;}   
+.banner-hover-effect{position: relative; display: inline-block;}
+.banner-hover-effect::before {
+    bottom: 0;
+    content: "";
+    left: 50%;
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    position: absolute;
+    right: 51%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+}
+.banner-hover-effect::after {
+    bottom: 50%;
+    content: "";
+    left: 0;
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+}
+.banner-hover-effect:hover::before {
+    left: 0;
+    opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    -webkit-opacity: 0;
+    right: 0;
+    transition: all 900ms ease-in-out 0s;
+    -webkit-transition: all 900ms ease-in-out 0s;
+    -moz-transition: all 900ms ease-in-out 0s;
+    -o-transition: all 900ms ease-in-out 0s;
+    -ms-transition: all 900ms ease-in-out 0s;
+}
+.banner-hover-effect:hover::after {
+    bottom: 0;
+    opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    -webkit-opacity: 0;
+    top: 0;
+    transition: all 900ms ease-in-out 0s;
+    -webkit-transition: all 900ms ease-in-out 0s;
+    -moz-transition: all 900ms ease-in-out 0s;
+    -o-transition: all 900ms ease-in-out 0s;
+    -ms-transition: all 900ms ease-in-out 0s;
+}
+.home-product-slider .carousel-slider {    
+    margin-bottom: 30px;
+}
+/*media*/
+@media only screen and (min-width:1500px) {
+    .ttcmsservices .ttcmsservice > div {padding: 6% 15px;}
+}
+@media (max-width: 991px){
+.home-product-slider .carousel-slider__product .price{margin: 0 1em !important;}
+}
+@media (max-width: 767px){
+.main-custom-title{font-size: 16px !important;}
+.home-slider .wpb_revslider_element {
+    padding-left: 0;
+}
+}
+@media (max-width:576px){
+
+}
