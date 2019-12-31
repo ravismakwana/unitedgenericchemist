@@ -27,7 +27,7 @@ do_action('woocommerce_email_header', $email_heading, $email);
 <?php /* translators: %s: Customer first name */ ?>
 <p><?php printf(esc_html__('Hi %s,', 'woocommerce'), esc_html($order->get_billing_first_name())); ?></p>
 <?php /* translators: %s: Order number */ ?>
-<p><?php printf('Just to let you know &mdash; your order <b>#%s</b> is now being shipped:', esc_html($order->get_order_number())); ?></p>
+<p><?php printf('Greetings!!! Your Order Has Been Successfully Shipped'); ?></p>
 
 <?php
 /*
@@ -36,6 +36,7 @@ do_action('woocommerce_email_header', $email_heading, $email);
  * @hooked WC_Structured_Data::output_structured_data() Outputs structured data.
  * @since 2.5.0
  */
+
 do_action('woocommerce_email_order_details', $order, $sent_to_admin, $plain_text, $email);
 
 /*

@@ -5191,7 +5191,7 @@ ul.login-links {
 .widget ul.product_list_widget_.woocommerce li:first-child {
     border:0;
 }
-p.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 30px;

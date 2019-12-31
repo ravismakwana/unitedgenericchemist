@@ -23,6 +23,8 @@ if (!defined('ABSPATH')) {
 <html <?php language_attributes(); ?>>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo('charset'); ?>" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title><?php echo get_bloginfo('name', 'display'); ?></title>
     </head>
     <body <?php echo is_rtl() ? 'rightmargin' : 'leftmargin'; ?>="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">

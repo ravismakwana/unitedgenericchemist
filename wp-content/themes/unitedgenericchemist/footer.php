@@ -60,41 +60,20 @@
 </footer><!-- #colophon -->
 </div><!-- .site-content-contain -->
 </div><!-- #page -->
-<?php
-global $product;
-if (isset($product)) {
-    $meta = get_post_meta(get_the_ID());
-    $_product = new WC_Product(get_the_ID());
-    if ($_product->regular_price != NULL) {
-        $price = $_product->regular_price;
-    } elseif ($_product->price != NULL) {
-        $price = $_product->price;
-    }
-    if (($_product->price > $_product->sale_price) && ($_product->sale_price != NULL)) {
-        $price = $_product->sale_price;
-    }
-    $queried_object = get_queried_object();
-    $term_id = $queried_object->term_id;
-    $rv_cate_desc = get_term_meta($term_id, 'rv_cate_desc', true);
-    ?>
-    <script type="application/ld+json">
-        {
-        "@context": "http://schema.org/",
-        "@type": "Product",
-        "name": "<?php echo get_the_title(get_the_ID()); ?>",
-        "offers": {
-        "@type": "Offer",
-        "priceCurrency": "<?php echo get_woocommerce_currency(); ?>",
-        "price": "<?php echo $price; ?>",
-        "itemCondition" : "http://schema.org/NewCondition",
-        "availability" : "http://schema.org/<?php echo $meta['_stock_status'][0] ? 'InStock' : 'OutOfStock'; ?>",
-        "brand" : "Tripada Healthcare",
-        "description": "<?php echo get_the_title(get_the_ID()); ?>"
-        }
-        }
-    </script>
-<?php } ?>
-<?php wp_footer(); ?>
 
+<?php wp_footer(); ?>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5cc3ff04ee912b07bec5172b/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 </html>

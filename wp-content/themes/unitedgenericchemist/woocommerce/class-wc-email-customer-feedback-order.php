@@ -41,7 +41,7 @@ if ( ! class_exists( 'WC_Email_Customer_Feedback_Order', false ) ) :
 			);
 
 			// Triggers for this email.
-			add_action( 'woocommerce_order_status_completed_notification', array( $this, 'trigger' ), 10, 2 );
+			add_action( 'woocommerce_order_status_completed_notification', array( $this, 'trigger' ), 20, 2 );
 
 			// Call parent constructor.
 			parent::__construct();
@@ -133,4 +133,4 @@ if ( ! class_exists( 'WC_Email_Customer_Feedback_Order', false ) ) :
 
 endif;
 
-return new WC_Email_Customer_Feedback_Order();
+//return new WC_Email_Customer_Feedback_Order();

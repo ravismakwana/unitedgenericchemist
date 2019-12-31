@@ -313,6 +313,16 @@ function optionsframework_options() {
         "std" => "https://www.trustpilot.com/evaluate/genericvilla.com?utm_medium=trustbox&utm_source=TrustBoxReviewCollector",
         "type" => "text"
     );
+    $options[] = array(
+        'name' => __('2nd Email Section on Order', 'theme-textdomain'),
+        'type' => 'heading'
+    );
+    $options[] = array(
+        "name" => "Write text on 2nd email which will be send once the customer an order.",
+        "id" => "second_email_on_order",
+        "std" => "",
+        "type" => "editor"
+    );
 
     return $options;
 }

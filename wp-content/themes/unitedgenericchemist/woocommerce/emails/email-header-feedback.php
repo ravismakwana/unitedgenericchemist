@@ -62,7 +62,7 @@ if (!defined('ABSPATH')) {
                                                 <!-- Content -->
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%">
                                                     <tr>
-                                                        <td valign="top" id="padding_0">                                                     
+                                                        <td valign="top" id="padding_0" style="padding-top: 0 !important;">
                                                             <table width="100%" id="bg-cyan-top">
                                                                 <tbody>
                                                                     <tr>         

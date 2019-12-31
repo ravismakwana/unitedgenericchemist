@@ -16,26 +16,26 @@
     <head>
         <meta charset="<?php bloginfo('charset'); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="profile" href="http://gmpg.org/xfn/11">
+        <link rel="profile" href="http://gmpg.org/xfn/11">        
         <?php wp_head(); ?>
         <?php
         $google_code = of_get_option('google_code');
         if (!empty($google_code)) {
             echo $google_code;
         }
-        
-        $schemaKey = 'schema_code_add-schema-code';
+		$schemaKey = 'schema_code_add-schema-code';
         $schemaCode = get_post_meta(get_the_ID(), $schemaKey, true);
         if(!empty($schemaCode) && is_product()) {
             echo $schemaCode;
         }
         ?>
+		<meta name="p:domain_verify" content="94beefae341dada72ded9dc16bddc8c4"/>
     </head>
 
     <body <?php body_class(); ?>>
         <div class="panel-overlay"></div>
         <div id="page" class="site">
-            <!--<a class="skip-link screen-reader-text" href="#content"><?php // _e('Skip to content', 'twentyseventeen');                                             ?></a>-->
+            <!--<a class="skip-link screen-reader-text" href="#content"><?php // _e('Skip to content', 'twentyseventeen');                                      ?></a>-->
 
             <header id="masthead" class="site-header" role="banner">
                 <?php //get_template_part( 'template-parts/header/header', 'image' );  ?>
@@ -75,7 +75,7 @@
                                             if (!empty($topbar_right_email_imagge)) {
                                                 ?>
                                                 <a href="javascript:void(0)">
-                                                    <img src="<?php echo $topbar_right_email_imagge; ?>" width="187" height="19" alt="<?php echo $topbar_right_email; ?>" />
+                                                    <img src="<?php echo $topbar_right_email_imagge; ?>" width="207" height="19" alt="<?php echo $topbar_right_email; ?>" />
                                                 </a>
                                                 <?php
                                             } else if (!empty($topbar_right_email)) {
@@ -217,6 +217,3 @@
 
             <div class="site-content-contain">
                 <div id="content" class="site-content">
-
-
-

@@ -137,4 +137,4 @@ if ( ! class_exists( 'WC_Email_Customer_Shipped_Order', false ) ) :
 
 endif;
 
-return new WC_Email_Customer_Shipped_Order();
+//return new WC_Email_Customer_Shipped_Order();

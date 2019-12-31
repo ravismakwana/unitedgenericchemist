@@ -24,7 +24,7 @@ if ( $related_products ) : ?>
 
 	<section class="related products">
 
-            <h4 class="panel-title"><?php esc_html_e( 'Related products', 'woocommerce' ); ?></h4>
+            <h5 class="panel-title"><?php esc_html_e( 'Related products', 'woocommerce' ); ?></h5>
 
 		<?php woocommerce_product_loop_start(); ?>
 
