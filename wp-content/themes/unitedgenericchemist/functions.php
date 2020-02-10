@@ -541,7 +541,7 @@ function twentyseventeen_scripts() {
 //    if((is_woocommerce()) && (is_checkout())) {
     wp_enqueue_script('file-upload', get_theme_file_uri('/assets/js/jquery.uploadfile.min.js'), array('jquery'), '1.0', false);
 //    }    
-    $vars = array('ajax_url' => admin_url('admin-ajax.php'),'home_url' => home_url());
+    $vars = array('ajax_url' => admin_url('admin-ajax.php'),'home_url' => home_url(), 'checkout_url' => get_permalink(wc_get_page_id('checkout')));
     wp_localize_script('twentyseventeen-global', 'WC_VARIATION_ADD_TO_CART', $vars);
     wp_enqueue_script('popper-js', get_theme_file_uri('/assets/js/popper.min.js'), array('jquery'), '1.0', true);
     wp_enqueue_script('bootstrap-js', get_theme_file_uri('/assets/js/bootstrap.min.js'), array('jquery'), '1.0', true);

@@ -298,10 +298,9 @@
             },
             type: "POST",
             success: function (data) {
-                btn.html('<i class="fa fa-check" aria-hidden="true"></i>');
-                setTimeout(function () {
-                    btn.html('<i class="fa fa-shopping-cart" aria-hidden="true"></i>');
-                }, 1000);
+                btn.html('<i class="fa fa-shopping-cart" aria-hidden="true"></i>');
+                btn.parent(".footable-last-visible").append('<a href="' + WC_VARIATION_ADD_TO_CART.checkout_url + '" title="Checkout" alt="Checkout" class="btn checkout_button" ><i class="fa fa-check" aria-hidden="true"></i></a>');
+
                 console.log(data.fragments[".cart-items-count"]);
                 jQuery('span.cart-items-count').replaceWith(data.fragments["span.cart-items-count"]);
                 jQuery('div.widget_shopping_cart_content').replaceWith(data.fragments["div.widget_shopping_cart_content"]);

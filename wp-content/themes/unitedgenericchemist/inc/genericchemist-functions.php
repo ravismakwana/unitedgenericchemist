@@ -2499,3 +2499,48 @@ if(!function_exists('defer_parsing_of_js')) {
     }
 }
 add_filter('script_loader_tag', 'defer_parsing_of_js', 10);
+
+add_action('woocommerce_before_main_content','add_horizontal_layout_func', 25 );
+if(!function_exists('add_horizontal_layout_func')) {
+    /**
+     * Created a shortcode to display Free shipping block horizontally on single product page
+     */
+    function add_horizontal_layout_func(){
+        ?>
+        <div class="horizontal-section">
+            <div class="ttcmsservices">
+                <div class="ttcmsservice">
+                    <div class="ttshipping">
+                        <div class="ttshipping_img service-icon"></div>
+                        <div class="service-content">
+                            <div class="service-title">Free Shipping</div>
+                            <div class="service-desc">Deliver to Door</div>
+                        </div>
+                    </div>
+                    <div class="ttsupport">
+                        <div class="ttsupport_img service-icon"></div>
+                        <div class="service-content">
+                            <div class="service-title">24x7 Support</div>
+                            <div class="service-desc">in Safe Hands</div>
+                        </div>
+                    </div>
+                    <div class="ttsaving">
+                        <div class="ttsaving_img service-icon"></div>
+                        <div class="service-content">
+                            <div class="service-title">Big Saving</div>
+                            <div class="service-desc">at Lowest Price</div>
+                        </div>
+                    </div>
+                    <div class="ttmoney">
+                        <div class="ttmoney_img service-icon"></div>
+                        <div class="service-content">
+                            <div class="service-title">Money Back</div>
+                            <div class="service-desc">Easy to Return</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php
+    }
+}

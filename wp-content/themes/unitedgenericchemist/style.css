@@ -5450,6 +5450,18 @@ ul.homepage-slider {
 .woocommerce .comment-form-rating p.stars.selected a{
     color: #F5AB41;
 }
+.checkout_button {
+    position: absolute;
+    font-size: 18px;
+    top: 0;
+    color: #01558b;
+}
+.checkout_button:hover {
+    color: #19bcbc;
+}
+.product-variation-display-section table td.footable-last-visible {
+    position: relative;
+}
 /* ravi */
 /*--------------------------------------------------------------
 19.0 Media Queries
