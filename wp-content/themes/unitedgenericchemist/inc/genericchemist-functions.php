@@ -2544,3 +2544,7 @@ if(!function_exists('add_horizontal_layout_func')) {
         <?php
     }
 }
+/**
+ * Remove product page sorting options
+ */
+remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
