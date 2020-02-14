@@ -5462,6 +5462,9 @@ ul.homepage-slider {
 .product-variation-display-section table td.footable-last-visible {
     position: relative;
 }
+.footer-social .mc4wp-response .mc4wp-notice p {
+    color: #FF0000;
+}
 /* ravi */
 /*--------------------------------------------------------------
 19.0 Media Queries

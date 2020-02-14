@@ -2543,6 +2543,7 @@ if(!function_exists('add_horizontal_layout_func')) {
         </div>
         <?php
     }
+
 }
 /**
  * Remove product page sorting options
