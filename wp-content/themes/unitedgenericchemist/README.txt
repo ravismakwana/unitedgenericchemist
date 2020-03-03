@@ -1,4 +1,4 @@
-=== Twenty Seventeen ===
+=== Generic Villa Project with Buddy Works - The DevOps Automation Platform ===
 Contributors: the WordPress team
 Requires at least: WordPress 4.7
 Tested up to: WordPress 5.0-trunk
