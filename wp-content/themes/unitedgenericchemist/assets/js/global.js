@@ -468,7 +468,7 @@
             $(document).$windowWidth = $(window).width(),
             $(document).$windowHeight = $(window).height();
     $(window).resize(function () {
-        if ($(document).$window.width() > 1199) {
+        if ($(window).width() > 1199) {
             if ($mobileMenu.hasClass('open')) {
                 $mobileMenu.removeClass('open');
                 $('body').removeClass('mobile-menu-opened');
