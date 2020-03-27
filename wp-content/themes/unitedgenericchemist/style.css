@@ -5475,6 +5475,27 @@ ul.homepage-slider {
     font-size: 16px;
     line-height: normal;
 }
+.countTime {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.min-div {
+    background-image: -webkit-linear-gradient(top, rgb(0, 0, 0) 0%, rgb(104, 104, 104) 50%, rgb(0, 0, 0) 50%, rgb(83, 80, 80) 100%);
+    width: 70px;
+    display: inline-block;
+    height: 70px;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.featherlight .featherlight-inner {
+    background: #51bcbc !important;
+    padding-top: 1px;
+}
 /* ravi */
 /*--------------------------------------------------------------
 19.0 Media Queries

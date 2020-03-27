@@ -602,6 +602,17 @@
             }
         });
     });
+    var countdown = 30 * 60 * 1000;
+    var timerId = setInterval(function(){
+        countdown -= 1000;
+        var min = Math.floor(countdown / (60 * 1000));
+        var sec = Math.floor((countdown - (min * 60 * 1000)) / 1000);
+        if (countdown <= 0) {
+            clearInterval(timerId);
+        } else {
+            $(".countTime").html("<div class='min-div'>" + min + "</div> : <div class='min-div'>" + sec + "</div>");
+        }
+    }, 1000);
 })(jQuery);
 
 function check_visible_add_to_cart_button() {
