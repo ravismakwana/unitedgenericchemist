@@ -464,9 +464,6 @@
         $mobileMenu.removeClass('open');
         $('body').removeClass('mobile-menu-opened');
     });
-    $(document).$window = $(window),
-            $(document).$windowWidth = $(window).width(),
-            $(document).$windowHeight = $(window).height();
     $(window).resize(function () {
         if ($(window).width() > 1199) {
             if ($mobileMenu.hasClass('open')) {
