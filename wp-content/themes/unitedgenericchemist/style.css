@@ -5497,6 +5497,12 @@ ul.homepage-slider {
     background: #51bcbc !important;
     padding-top: 1px;
 }
+form.fca_eoi_layout_15 div.fca_eoi_layout_content_wrapper {
+    margin-top: 3px;
+}
+.fca_eoi_layout_15.fca_eoi_layout_popup div.fca_eoi_layout_email_field_wrapper input {
+    min-height: 40px;
+}
 /* ravi */
 /*--------------------------------------------------------------
 19.0 Media Queries
