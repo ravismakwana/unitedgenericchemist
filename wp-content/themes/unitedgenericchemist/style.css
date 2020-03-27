@@ -5470,7 +5470,11 @@ ul.homepage-slider {
     margin-bottom: 15px;
     padding-top: 8px;
 }
-.pum-content.popmake-content {text-align: justify;}
+.pum-content.popmake-content, .pum-content.popmake-content p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: normal;
+}
 /* ravi */
 /*--------------------------------------------------------------
 19.0 Media Queries
