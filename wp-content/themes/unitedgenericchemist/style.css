@@ -5479,7 +5479,8 @@ ul.homepage-slider {
     position: relative;
     text-align: center;
     margin-top: 15px;
-    padding-top: 10px;
+    padding-top: 10px !important;
+    margin-bottom: 0;
 }
 .min-div {
     background-image: -webkit-linear-gradient(top, rgb(0, 0, 0) 0%, rgb(104, 104, 104) 50%, rgb(0, 0, 0) 50%, rgb(83, 80, 80) 100%);
