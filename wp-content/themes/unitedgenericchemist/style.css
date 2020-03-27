@@ -5466,9 +5466,12 @@ ul.homepage-slider {
     color: #FF0000;
 }
 .pum-title {
-    text-transform: uppercase;
+    text-transform: uppercase !important;
     margin-bottom: 15px;
     padding-top: 8px;
+}
+.pum-content.popmake-content {
+    text-align: justify;
 }
 /* ravi */
 /*--------------------------------------------------------------
