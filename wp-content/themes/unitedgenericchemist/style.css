@@ -5465,6 +5465,11 @@ ul.homepage-slider {
 .footer-social .mc4wp-response .mc4wp-notice p {
     color: #FF0000;
 }
+.pum-title {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-top: 8px;
+}
 /* ravi */
 /*--------------------------------------------------------------
 19.0 Media Queries
